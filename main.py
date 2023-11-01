@@ -1,3 +1,17 @@
+#decode function made by Fabio Jorge Hernandez
+def decode(password):
+    decodedpsw = ""
+    for digit in str(password):
+        if str(int(digit) - 3) == "-1":
+            decodedpsw += "9"
+        elif str(int(digit) - 3) == "-2":
+            decodedpsw += "8"
+        elif str(int(digit) - 3) == "-3":
+            decodedpsw += "7"
+        else:
+            decodedpsw += str(int(digit) - 3)
+    return decodedpsw
+
 # Jaden Edgecombe
 
 # Encoded Function
