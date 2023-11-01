@@ -50,7 +50,7 @@ def main():
             encoded_password = encode(password)
             print("Your password has been encoded and stored!\n")
         elif user_option == 2:
-            print("The encoded password is " + encoded_password + ", and the original password is " + password + ".\n")
+            print("The encoded password is " + encoded_password + ", and the original password is " + decode(encoded_password) + ".\n") # Included decode function in main functiom
         elif user_option == 3:
             active = False
 
