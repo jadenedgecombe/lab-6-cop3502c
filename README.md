@@ -5,8 +5,7 @@ A simple, text-based Python program that encodes and decodes numeric passwords u
 ## Project Layout
 ```bash
 lab-6-cop3502c
-├─ main.py
-└─ .gitignore
+└─ main.py
 ```
 
 ## Technologies Used
